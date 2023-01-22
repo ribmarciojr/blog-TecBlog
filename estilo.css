@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	background-color: #e0e0d1;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p{
+	margin-bottom: 10px;
+}
+
+a:link, a:visited, a:hover{
+	color: black;
+	text-decoration: underline;
+	background-color: lightgrey;
+}
+
+
+/*
+****  Formatação do Cabeçalho  ****
+*/
+#header{
+	position: relative;
+	border: 0px solid black;
+	width: 100%;
+	background-color: #ff8000;
+	text-align: center;
+	margin: 0px 0px;
+}
+
+#logo{
+	width: auto;
+	border: 0px solid blue;
+	margin: 10px 0px;
+	margin-top: 0px;
+	font-size: 60px;
+	background-color: ;
+	padding-top: 20px;
+}
+
+#nav-bar{
+	width: auto;
+	border: 0px solid blue;
+	font-size: 19px;
+	padding-bottom: 20px;
+	background-color: ;
+}
+
+#nav-bar a:link, a:visited{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	background-color: #ff8000;
+}
+
+#nav-bar a:hover{
+	background-color: white;
+	color: orange;
+}
+
+.branco{
+	color: white;
+}
+
+.grey{
+	color: grey;
+}
+
+/*
+**** // Formatação do Cabeçalho  ****
+*/
+
+
+
+
+
+/*
+**** Formatação do Corpo ****
+*/
+#body{
+	position: relative;
+	border: 0px solid blue;
+	width: 960px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+.principal{
+	border: 0px solid black;
+	width: 660px;
+	float: left;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+
+.lateral{
+	border: 0px solid red;
+	width: 240px;
+	float: right;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.img{
+	text-align: center;
+	border-top: 2px solid lightgrey;
+	margin-top: 5px;
+	padding-top: 10px;
+
+}
+/*
+**** // Formatação do Corpo ****
+*/
+
+
+/*
+**** Formatação do Rodapé ****
+*/
+
+#footer{
+	clear: both;
+	text-align: center;
+}
+
+
+
+/*
+**** // Formatação do Rodapé ****
+*/
+
+
+.title{
+	border: 0px solid red;
+	margin: 0px;
+	font-size: 2em;
+	color: orange;
+}
+
+.subtitle{
+	border: 0px solid red;
+	margin: 0px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+
+.title-lateral{
+	border: 0px solid red;
+	margin: 0px;
+	background-color: #e0ebeb;
+	color: #132639;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.description{
+	border: 0px solid red;
+	margin: 5px;
+
+}
+
+.block;{
+	display: block;
+	margin: 10px 0px;
+}
+
+.link{
+	background-color: grey;
+	color: black;
+
+}
+
